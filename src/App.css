@@ -13,6 +13,62 @@
   }
 }
 
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.tabla {
+  width: 90%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid rgb(28, 223, 14);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(225, 248, 229);
+
+}
+
+.espacio {
+  margin-top: 60px;
+}
+
+.name {
+  border: 2px solid gainsboro;
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin-left: 20px;
+  width: 30%;
+}
+
+.lastn {
+  border: 2px solid gainsboro;
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin-left: 20px;
+  width: 30%;
+
+}
+
+.agregar {
+  background-color: #52e957;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +88,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
