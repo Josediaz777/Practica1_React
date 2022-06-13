@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: azure;
+  height: 100;
 }
 
 .App-logo {
@@ -68,6 +70,41 @@
   cursor: pointer;
   width: 100%;
 }
+
+.operacion {
+  background-color: #52ccee;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 50%;
+}
+
+.numero1 {
+  border: 2px solid gainsboro;
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin-left: 20px;
+  width: 30%;
+}
+
+.numero2 {
+  border: 2px solid gainsboro;
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin-left: 20px;
+  width: 30%;
+
+}
+
+
 
 .App-header {
   background-color: #282c34;
